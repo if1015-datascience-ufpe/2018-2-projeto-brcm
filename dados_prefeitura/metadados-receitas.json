@@ -1,0 +1,296 @@
+{
+	"metadados": {
+		"cabecalho": {
+			"titulo": "Receitas",
+			"descricao": "Receita Pública é a soma de ingressos, impostos, taxas, contribuições e outras fontes de recursos, arrecadados para atender às despesas públicas.",
+			"categoria_vcge": "http://vocab.e.gov.br/2011/03/vcge#administracao-receitas",
+			"fonte_dados": "http://dados.recife.pe.gov.br",
+			"licenca": "Open Database License (ODbL)",
+			"responsavel_dados": "Secretaria de Finanças",
+			"responsavel_disponibilizar": "Emprel",
+			"frequencia_atualizacao": "semanal",
+			"endereco_dataset": "http://dados.recife.pe.gov.br/dataset/receitas",
+			"status": "ativo",
+			"endereco_dataset_substituto": "",
+			"granularidade": "Receitas orçamentárias anuais por classifição orçamentária.",
+			"etiquetas": "Alinea,Fonte de Recurso,Receita,Unidade,Órgão"
+		},
+		"recursos": [
+			{ 
+				"identificador": "http://dados.recife.pe.gov.br/dataset/receitas/resource/9d1b00ae-ba3d-4587-ae78-f1cf7f1880f6",
+				"titulo": "Receitas 2002",
+				"formato": "csv",
+				"descricao": "Descrição das receita em 2002"
+			},
+			{ 
+				"identificador": "http://dados.recife.pe.gov.br/dataset/receitas/resource/f82cc0ac-310e-4908-a1aa-30f6b4ae45f6",
+				"titulo": "Receitas 2003",
+				"formato": "csv",
+				"descricao": "Descrição das receita em 2003"
+			},
+			{ 
+				"identificador": "http://dados.recife.pe.gov.br/dataset/receitas/resource/71835505-c6ee-44ad-8e98-4c66d4cf6a09",
+				"titulo": "Receitas 2004",
+				"formato": "csv",
+				"descricao": "Descrição das receita em 2004"
+			},
+			{ 
+				"identificador": "http://dados.recife.pe.gov.br/dataset/receitas/resource/71fe7376-8707-468b-88ac-605bc3a25d23",
+				"titulo": "Receitas 2005",
+				"formato": "csv",
+				"descricao": "Descrição das receita em 2005"
+			},
+			{ 
+				"identificador": "http://dados.recife.pe.gov.br/dataset/receitas/resource/c692533b-e4e1-4e43-93e0-8b597ac7ec82",
+				"titulo": "Receitas 2006",
+				"formato": "csv",
+				"descricao": "Descrição das receita em 2006"
+			},
+			{ 
+				"identificador": "http://dados.recife.pe.gov.br/dataset/receitas/resource/71784b04-98a3-4703-bc96-80ef836245b7",
+				"titulo": "Receitas 2007",
+				"formato": "csv",
+				"descricao": "Descrição das receita em 2007"
+			},
+			{ 
+				"identificador": "http://dados.recife.pe.gov.br/dataset/receitas/resource/f8b72539-f9b6-4bc5-bfbb-49342b236a02",
+				"titulo": "Receitas 2008",
+				"formato": "csv",
+				"descricao": "Descrição das receita em 2008"
+			},
+			{ 
+				"identificador": "http://dados.recife.pe.gov.br/dataset/receitas/resource/5546e573-ef42-49e8-a3ec-27be6db24737",
+				"titulo": "Receitas 2009",
+				"formato": "csv",
+				"descricao": "Descrição das receita em 2009"
+			},
+			{ 
+				"identificador": "http://dados.recife.pe.gov.br/dataset/receitas/resource/a6874b5a-7d3b-4c57-a25f-1200b1b8caf6",
+				"titulo": "Receitas 2010",
+				"formato": "csv",
+				"descricao": "Descrição das receita em 2010"
+			},
+			{ 
+				"identificador": "http://dados.recife.pe.gov.br/dataset/receitas/resource/d0f0389c-5c44-4ac2-a904-0e658c88a079",
+				"titulo": "Receitas 2011",
+				"formato": "csv",
+				"descricao": "Descrição das receita em 2011"
+			},
+			{ 
+				"identificador": "http://dados.recife.pe.gov.br/dataset/receitas/resource/5d20f841-d790-4671-ae26-505c9a8c7f76",
+				"titulo": "Receitas 2012",
+				"formato": "csv",
+				"descricao": "Descrição das receita em 2012"
+			},
+			{ 
+				"identificador": "http://dados.recife.pe.gov.br/dataset/receitas/resource/a1beb511-7fe1-434b-ab87-a0d02fb47713",
+				"titulo": "Receitas 2013",
+				"formato": "csv",
+				"descricao": "Descrição das receita em 2013"
+			},
+			{ 
+				"identificador": "http://dados.recife.pe.gov.br/dataset/receitas/resource/f653877d-977e-4380-91d4-3c3fa1a29537",
+				"titulo": "Receitas 2014",
+				"formato": "csv",
+				"descricao": "Descrição das receita em 2014"
+			},
+			{ 
+				"identificador": "http://dados.recife.pe.gov.br/dataset/receitas/resource/191609aa-3973-4b51-856b-eb178ed105ed",
+				"titulo": "Receitas 2015",
+				"formato": "csv",
+				"descricao": "Descrição das receita em 2015"
+			}
+		],
+		"campos": [
+			{
+				"codigo": "ano",
+				"descricao": "Ano de Referência",
+				"tipo": "Num",
+				"tamanho": 4,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "mes",
+				"descricao": "Mês de Referência",
+				"tipo": "Num",
+				"tamanho": 2,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "mes_nome",
+				"descricao": "Nome do Mês de Refência",
+				"tipo": "Char",
+				"tamanho": 10,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "orgao_codigo",
+				"descricao": "Código do Órgão",
+				"tipo": "Num",
+				"tamanho": 2,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "orgao_nome",
+				"descricao": "Nome do Órgão",
+				"tipo": "Char",
+				"tamanho": 100,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "unidade_codigo",
+				"descricao": "Código da Unidade Orçamentária",
+				"tipo": "Char",
+				"tamanho": 5,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "unidade_nome",
+				"descricao": "Nome da Unidade Orçamentária",
+				"tipo": "Char",
+				"tamanho": 100,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "fonte_recurso_codigo",
+				"descricao": "Código da Fonte de Recurso",
+				"tipo": "Num",
+				"tamanho": 3,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "fonte_recurso_nome",
+				"descricao": "Nome da Fonte de Recurso",
+				"tipo": "Char",
+				"tamanho": 70,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "categoria_receita_codigo",
+				"descricao": "Código da Categoria de Receita",
+				"tipo": "Num",
+				"tamanho": 1,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "categoria_receita_nome",
+				"descricao": "Nome da Categoria de Receita",
+				"tipo": "Char",
+				"tamanho": 50,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "fonte_origem_receita_codigo",
+				"descricao": "Código da Fonte de Origem",
+				"tipo": "Num",
+				"tamanho": 1,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "fonte_origem_receita_nome",
+				"descricao": "Nome da Fonte de Origem",
+				"tipo": "Char",
+				"tamanho": 70,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "subfonte_receita_codigo",
+				"descricao": "Código da Subfonte de Receita",
+				"tipo": "Num",
+				"tamanho": 1,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "subfonte_receita_nome",
+				"descricao": "Nome da Subfonte de Receita",
+				"tipo": "Char",
+				"tamanho": 70,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "rubrica_receita_codigo",
+				"descricao": "Código da Rubrica",
+				"tipo": "Num",
+				"tamanho": 1,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "rubrica_receita_nome",
+				"descricao": "Nome da Rubrica",
+				"tipo": "Char",
+				"tamanho": 100,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "alinea_receita_codigo",
+				"descricao": "Código de Alinea",
+				"tipo": "Num",
+				"tamanho": 2,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "alinea_receita_nome",
+				"descricao": "Nome de Alinea",
+				"tipo": "Char",
+				"tamanho": 200,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "subalinea_receita_codigo",
+				"descricao": "Código da Subalinea",
+				"tipo": "Num",
+				"tamanho": 2,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "subalinea_receita_nome",
+				"descricao": "Nome da Subalinea",
+				"tipo": "Char",
+				"tamanho": 200,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "receita_local_codigo",
+				"descricao": "Código da Receita Local",
+				"tipo": "Num",
+				"tamanho": 5,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "receita_local_nome",
+				"descricao": "Nome da Receita Local",
+				"tipo": "Char",
+				"tamanho": 70,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "receita_prevista",
+				"descricao": "Valor da Receita Prevista",
+				"tipo": "Num",
+				"tamanho": 15.2,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "receita_prevista_acrescimo",
+				"descricao": "Valor do Acrescimo de Receita Prevista",
+				"tipo": "Num",
+				"tamanho": 15.2,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "receita_prevista_atualizada",
+				"descricao": "Valor da Receita Arrecadada",
+				"tipo": "Num",
+				"tamanho": 15.2,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "receita_arrecadada",
+				"descricao": "Código da Receita Local",
+				"tipo": "Num",
+				"tamanho": 4,
+				"valores_permitidos": ""
+			}
+		]
+	}
+}

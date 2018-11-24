@@ -1,0 +1,380 @@
+{
+	"metadados": {
+		"cabecalho": {
+			"titulo": "Despesas Orçamentárias",
+			"descricao": "Despesas realizadas pelo governo municipal com serviços, obras e compras, com a finalidade de atender as necessidades coletivas da população.",
+			"categoria_vcge": "http://vocab.e.gov.br/2011/03/vcge#administracao-despesas",
+			"fonte_dados": "http://dados.recife.pe.gov.br",
+			"licenca": "Open Database License (ODbL)",
+			"responsavel_dados": "Secretaria de Finanças",
+			"responsavel_disponibilizar": "Emprel",
+			"frequencia_atualizacao": "semanal",
+			"endereco_dataset": "http://dados.recife.pe.gov.br/dataset/despesas-orcamentarias",
+			"status": "ativo",
+			"endereco_dataset_substituto": "",
+			"granularidade": "Despesas orçamentárias anuais por classifição orçamentária.",
+			"etiquetas": "despesas,finanças"
+		},
+		"recursos": [
+			{ 
+				"identificador": "http://dados.recife.pe.gov.br/dataset/despesas-orcamentarias/resource/4f6633b7-6937-4d3f-a1aa-74b7d830dd77",
+				"titulo": "Despesas orçamentárias - 2002",
+				"formato": "csv",
+				"descricao": "Descrição das despesas orçamentárias ocorridas em 2002"
+			},
+			{ 
+				"identificador": "http://dados.recife.pe.gov.br/dataset/despesas-orcamentarias/resource/e774755c-e15b-4052-96f1-1b3a3e6f7a2b",
+				"titulo": "Despesas orçamentárias - 2003",
+				"formato": "csv",
+				"descricao": "Descrição das despesas orçamentárias ocorridas em 2003"
+			},
+			{ 
+				"identificador": "http://dados.recife.pe.gov.br/dataset/despesas-orcamentarias/resource/6775b8f8-86e3-4eba-9544-4856d6bb6b3a",
+				"titulo": "Despesas orçamentárias - 2004",
+				"formato": "csv",
+				"descricao": "Descrição das despesas orçamentárias ocorridas em 2004"
+			},
+			{ 
+				"identificador": "http://dados.recife.pe.gov.br/dataset/despesas-orcamentarias/resource/b0ddd12f-1024-46aa-9349-2a9d08a0360c",
+				"titulo": "Despesas orçamentárias - 2005",
+				"formato": "csv",
+				"descricao": "Descrição das despesas orçamentárias ocorridas em 2005"
+			},
+			{ 
+				"identificador": "http://dados.recife.pe.gov.br/dataset/despesas-orcamentarias/resource/9b3e912b-9454-4711-a11a-0dbc00bbf0f2",
+				"titulo": "Despesas orçamentárias - 2006",
+				"formato": "csv",
+				"descricao": "Descrição das despesas orçamentárias ocorridas em 2006"
+			},
+			{ 
+				"identificador": "http://dados.recife.pe.gov.br/dataset/despesas-orcamentarias/resource/ed2b10b4-f419-4c4d-bc23-be1173cf416f",
+				"titulo": "Despesas orçamentárias - 2007",
+				"formato": "csv",
+				"descricao": "Descrição das despesas orçamentárias ocorridas em 2007"
+			},
+			{ 
+				"identificador": "http://dados.recife.pe.gov.br/dataset/despesas-orcamentarias/resource/c421cd48-8cea-42b4-8009-7d4c3847d789",
+				"titulo": "Despesas orçamentárias - 2008",
+				"formato": "csv",
+				"descricao": "Descrição das despesas orçamentárias ocorridas em 2008"
+			},
+			{ 
+				"identificador": "http://dados.recife.pe.gov.br/dataset/despesas-orcamentarias/resource/3c170db7-ac53-4444-b898-81d4857e803c",
+				"titulo": "Despesas orçamentárias - 2009",
+				"formato": "csv",
+				"descricao": "Descrição das despesas orçamentárias ocorridas em 2009"
+			},
+			{ 
+				"identificador": "http://dados.recife.pe.gov.br/dataset/despesas-orcamentarias/resource/874cea66-b065-41a0-ac7d-6555ef9d9837",
+				"titulo": "Despesas orçamentárias - 2010",
+				"formato": "csv",
+				"descricao": "Descrição das despesas orçamentárias ocorridas em 2010"
+			},
+			{ 
+				"identificador": "http://dados.recife.pe.gov.br/dataset/despesas-orcamentarias/resource/e252302e-7fb8-4c55-8001-aee83e7d27a9",
+				"titulo": "Despesas orçamentárias - 2011",
+				"formato": "csv",
+				"descricao": "Descrição das despesas orçamentárias ocorridas em 2011"
+			},
+			{ 
+				"identificador": "http://dados.recife.pe.gov.br/dataset/despesas-orcamentarias/resource/1822ce32-9e37-4854-bece-d38510cd48f6",
+				"titulo": "Despesas orçamentárias - 2012",
+				"formato": "csv",
+				"descricao": "Descrição das despesas orçamentárias ocorridas em 2012"
+			},
+			{ 
+				"identificador": "http://dados.recife.pe.gov.br/dataset/despesas-orcamentarias/resource/52e7ed1f-440b-48a2-8583-819e3283dc62",
+				"titulo": "Despesas orçamentárias - 2013",
+				"formato": "csv",
+				"descricao": "Descrição das despesas orçamentárias ocorridas em 2013"
+			},
+			{ 
+				"identificador": "http://dados.recife.pe.gov.br/dataset/despesas-orcamentarias/resource/0a77e23d-6e6d-436f-a627-6f5869530cc1",
+				"titulo": "Despesas orçamentárias - 2014",
+				"formato": "csv",
+				"descricao": "Descrição das despesas orçamentárias ocorridas em 2014"
+			},
+			{ 
+				"identificador": "http://dados.recife.pe.gov.br/dataset/despesas-orcamentarias/resource/350aebb7-9d3c-4171-b732-b3f62877cb85",
+				"titulo": "Despesas orçamentárias - 2015",
+				"formato": "csv",
+				"descricao": "Descrição das despesas orçamentárias ocorridas em 2015"
+			}
+		],
+		"campos": [
+			{
+				"codigo": "ano_movimentacao",
+				"descricao": "Ano de Referência da Competência da Despesa",
+				"tipo": "Num",
+				"tamanho": 4,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "mes_movimentacao",
+				"descricao": "Mês da Realização da Movimentação",
+				"tipo": "Data",
+				"tamanho": 10,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "orgao_codigo",
+				"descricao": "Código do Órgão",
+				"tipo": "Num",
+				"tamanho": 2,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "orgao_nome",
+				"descricao": "Nome do Órgão",
+				"tipo": "Char",
+				"tamanho": 100,
+				"valores_permitidos": ""
+			},
+    		{
+				"codigo": "unidade_codigo",
+				"descricao": "Código da Unidade Orçamentária",
+				"tipo": "Char",
+				"tamanho": 5,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "unidade_nome",
+				"descricao": "Nome da Unidade Orçamentária",
+				"tipo": "Char",
+				"tamanho": 100,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "categoria_economica_codigo",
+				"descricao": "Código da Categoria Econômica",
+				"tipo": "Num",
+				"tamanho": 1,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "categoria_economica_nome",
+				"descricao": "Nome da Categoria Econômica",
+				"tipo": "Char",
+				"tamanho": 30,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "grupo_despesa_codigo",
+				"descricao": "Código do Grupo de Despesa",
+				"tipo": "Num",
+				"tamanho": 1,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "grupo_despesa_nome",
+				"descricao": "Nome do Grupo de Despesa",
+				"tipo": "Char",
+				"tamanho": 35,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "modalidade_aplicacao_codigo",
+				"descricao": "Código da Modalidade de Aplicação",
+				"tipo": "Num",
+				"tamanho": 2,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "modalidade_aplicacao_nome",
+				"descricao": "Nome da Modalidade de Aplicação",
+				"tipo": "Char",
+				"tamanho": 140,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "elemento_codigo",
+				"descricao": "Código do Elemento de Despesa",
+				"tipo": "Num",
+				"tamanho": 2,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "elemento_nome",
+				"descricao": "Nome do Elemento de Despesa",
+				"tipo": "Char",
+				"tamanho": 80,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "subelemento_codigo",
+				"descricao": "Código do Subelemento de Despesa",
+				"tipo": "Num",
+				"tamanho": 2,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "subelemento_nome",
+				"descricao": "Nome do Subelemento de Despesa",
+				"tipo": "Char",
+				"tamanho": 100,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "funcao_codigo",
+				"descricao": "Código da Função",
+				"tipo": "Num",
+				"tamanho": 2,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "funcao_nome",
+				"descricao": "Nome da Função",
+				"tipo": "Char",
+				"tamanho": 30,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "subfuncao_codigo",
+				"descricao": "Código da Subfunção",
+				"tipo": "Num",
+				"tamanho": 3,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "subfuncao_nome",
+				"descricao": "Nome da Subfunção",
+				"tipo": "Char",
+				"tamanho": 60,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "programa_codigo",
+				"descricao": "Código do Programa",
+				"tipo": "Num",
+				"tamanho": 4,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "programa_nome",
+				"descricao": "Nome do Programa",
+				"tipo": "Char",
+				"tamanho": 90,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "acao_codigo",
+				"descricao": "Código da Ação",
+				"tipo": "Num",
+				"tamanho": 4,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "acao_nome",
+				"descricao": "Nome da Ação",
+				"tipo": "Char",
+				"tamanho": 200,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "fonte_recurso_codigo",
+				"descricao": "Código da Fonte de Recurso",
+				"tipo": "Num",
+				"tamanho": 4,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "fonte_recurso_nome",
+				"descricao": "Nome da Fonte de Recurso",
+				"tipo": "Char",
+				"tamanho": 65,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "empenho_ano",
+				"descricao": "Ano do Empenho",
+				"tipo": "Num",
+				"tamanho": 4,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "empenho_modalidade_nome",
+				"descricao": "Código da Modalidade do Empenho",
+				"tipo": "Num",
+				"tamanho": 1,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "empenho_modalidade_codigo",
+				"descricao": "Nome da Modalidade do Empenho",
+				"tipo": "Char",
+				"tamanho": 30,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "empenho_numero",
+				"descricao": "Número de Empenho",
+				"tipo": "Num",
+				"tamanho": 4,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "subempenho",
+				"descricao": "Parcela do Empenho (Subempenho)",
+				"tipo": "Num",
+				"tamanho": 3,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "indicador_subempenho",
+				"descricao": "Indicador se Possui Subempenho",
+				"tipo": "Char",
+				"tamanho": 1,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "credor_codigo",
+				"descricao": "Código do Credor",
+				"tipo": "Num",
+				"tamanho": 10,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "credor_nome",
+				"descricao": "Nome do Credor",
+				"tipo": "Char",
+				"tamanho": 150,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "modalidade_licitacao_codigo",
+				"descricao": "Código da Modalidade de Licitação",
+				"tipo": "Num",
+				"tamanho": 2,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "modalidade_licitacao_nome",
+				"descricao": "Nome da Modalidade de Licitação",
+				"tipo": "Char",
+				"tamanho": 50,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "valor_empenhado",
+				"descricao": "Valor Empenhado",
+				"tipo": "Num",
+				"tamanho": 16.2,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "valor_liquidado",
+				"descricao": "Valor Liquidado",
+				"tipo": "Num",
+				"tamanho": 16.2,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "valor_pago",
+				"descricao": "Valor Pago",
+				"tipo": "Num",
+				"tamanho": 16.2,
+				"valores_permitidos": ""
+			}
+		]
+	}
+}
