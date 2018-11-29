@@ -1,0 +1,52 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\title{Análise da situação financeira do município de Recife}
+
+\author{
+  Rios, Breno\\
+  \texttt{brr@cin.ufpe.br}
+  \and
+  Moreira, Cinthya\\
+  \texttt{cml2@cin.ufpe.br}
+}
+
+\date{Novembro 2018}
+
+\begin{document}
+
+\maketitle
+\setlength{\parindent}{4em}
+\setlength{\parskip}{1em}
+\renewcommand{\baselinestretch}{2.0}
+
+\section{Proposta}
+\text{
+Realizar uma análise financeira dos município de Recife, com o objetivo de identificar como é gasto o dinheiro arrecadado e se este gasto está dentro dos limites da LOA. Serão feitas também comparações com as receitas para saber se a gestão está ocorrendo de maneira responsável.
+}
+
+\section{Etapas}
+
+ \begin{enumerate}
+   \item Conversão dos dados para o formato adequado de manipulação e transformação das bases que necessitam em dataframes.
+   \item Pré-processamento dos dados: tratamento de dados que estão faltando, remoção de possíveis atributos não utilizados e ajuste de tipos.
+   \item Ajuste de atributos que estão identificados por códigos e convertê-los para um identificador com melhor significado.
+   \item Criar gráficos mostrando a evolução dos gastos dde acordo com sua função.
+   \item Cruzar dados anteriores com os dados financeiros com o da LOA (LEI Nº 18.281 /2016)
+   \item Estruturação da estória dos dados a serem apresentados, organizando as análises feitas em uma ordem relevante para a extração de conclusões relevantes.
+ \end{enumerate}
+
+\section{Datasets}
+\begin{itemize}
+    \item Dados sobre as receitas e despesas da cidade de Recife:
+        \begin{itemize}
+            \item http://dados.recife.pe.gov.br/dataset?q=finan%C3%A7as
+        \end{itemize}
+
+    \item LOA 2017:
+        \begin{itemize}
+            \item https://leismunicipais.com.br/PE/RECIFE/LEI-18281-2016-RECIFE-PE.pdf
+        \end{itemize}  
+ \end{itemize}
+
+\end{document}
